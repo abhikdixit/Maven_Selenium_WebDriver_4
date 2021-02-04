@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1"
+	passed="1">
+	<reporter-output>
+	</reporter-output>
+	<suite name="Default suite" duration-ms="77075" started-at="2020-12-17T07:20:52Z"
+		finished-at="2020-12-17T07:22:09Z">
+		<groups>
+		</groups>
+		<test name="Default test" duration-ms="77075" started-at="2020-12-17T07:20:52Z"
+			finished-at="2020-12-17T07:22:09Z">
+			<class name="pk_Orange_HRM.NavigateAllLinks">
+				<test-method status="PASS"
+					signature="navigateToAllLinks()[pri:0, instance:pk_Orange_HRM.NavigateAllLinks@4cf777e8]"
+					name="navigateToAllLinks" duration-ms="77036" started-at="2020-12-17T12:50:52Z"
+					finished-at="2020-12-17T12:52:09Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- navigateToAllLinks -->
+			</class> <!-- pk_Orange_HRM.NavigateAllLinks -->
+		</test> <!-- Default test -->
+	</suite> <!-- Default suite -->
+</testng-results>

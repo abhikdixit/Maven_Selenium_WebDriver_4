@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Failed suite [Suite]" parallel="methods">
+	<test name="Test(failed)" parallel="methods">
+		<classes>
+			<class name="pk_Orange_HRM.Parallel_Thread_TestNG_XML_Example">
+				<methods>
+					<include name="FirefoxTest" />
+				</methods>
+			</class> <!-- pk_Orange_HRM.Parallel_Thread_TestNG_XML_Example -->
+		</classes>
+	</test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

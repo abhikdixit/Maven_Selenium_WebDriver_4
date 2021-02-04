@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]"
+	parallel="tests">
+	<test name="ChromeTest(failed)" parallel="tests">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="pk_Orange_HRM.CrossBrowser_Example">
+				<methods>
+					<include name="CloseBrowser" />
+					<include name="CloseBrowser" />
+					<include name="CloseBrowser" />
+					<include name="CloseBrowser" />
+					<include name="OrangeHRM_Login" invocation-numbers="1 2" />
+					<include name="LaunchBrowser" />
+					<include name="LaunchBrowser" />
+					<include name="LaunchBrowser" />
+					<include name="LaunchBrowser" />
+				</methods>
+			</class> <!-- pk_Orange_HRM.CrossBrowser_Example -->
+		</classes>
+	</test> <!-- ChromeTest(failed) -->
+	<test name="FirefoxTest(failed)" parallel="tests">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="pk_Orange_HRM.CrossBrowser_Example">
+				<methods>
+					<include name="CloseBrowser" />
+					<include name="CloseBrowser" />
+					<include name="CloseBrowser" />
+					<include name="CloseBrowser" />
+					<include name="OrangeHRM_Login" invocation-numbers="1 2" />
+					<include name="LaunchBrowser" />
+					<include name="LaunchBrowser" />
+					<include name="LaunchBrowser" />
+					<include name="LaunchBrowser" />
+				</methods>
+			</class> <!-- pk_Orange_HRM.CrossBrowser_Example -->
+		</classes>
+	</test> <!-- FirefoxTest(failed) -->
+	<test name="EdgeTest(failed)" parallel="tests">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="pk_Orange_HRM.CrossBrowser_Example">
+				<methods>
+					<include name="CloseBrowser" />
+					<include name="CloseBrowser" />
+					<include name="CloseBrowser" />
+					<include name="CloseBrowser" />
+					<include name="OrangeHRM_Login" invocation-numbers="1" />
+					<include name="LaunchBrowser" />
+					<include name="LaunchBrowser" />
+					<include name="LaunchBrowser" />
+					<include name="LaunchBrowser" />
+				</methods>
+			</class> <!-- pk_Orange_HRM.CrossBrowser_Example -->
+		</classes>
+	</test> <!-- EdgeTest(failed) -->
+	<test name="IETest(failed)" parallel="tests">
+		<parameter name="browser" value="ie" />
+		<classes>
+			<class name="pk_Orange_HRM.CrossBrowser_Example">
+				<methods>
+					<include name="CloseBrowser" />
+					<include name="CloseBrowser" />
+					<include name="CloseBrowser" />
+					<include name="CloseBrowser" />
+					<include name="OrangeHRM_Login" invocation-numbers="0 1 2" />
+					<include name="LaunchBrowser" />
+					<include name="LaunchBrowser" />
+					<include name="LaunchBrowser" />
+					<include name="LaunchBrowser" />
+				</methods>
+			</class> <!-- pk_Orange_HRM.CrossBrowser_Example -->
+		</classes>
+	</test> <!-- IETest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

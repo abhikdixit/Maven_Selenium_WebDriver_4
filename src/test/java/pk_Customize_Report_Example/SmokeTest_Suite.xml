@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		<classes>
+			<class name="pk_Customize_Report_Example.SmokeTest_Suite" />
+			<class name="pk_Customize_Report_Example.Double_Click_Example" />
+			<class name="pk_Customize_Report_Example.Drag_and_Drop" />
+			<class name="pk_Customize_Report_Example.OrangeHRM_Login_TestNG" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
